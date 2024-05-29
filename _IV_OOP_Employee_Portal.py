@@ -154,8 +154,8 @@ def main(username):
         _VII_OOP_Account_Page.main(username)
     # Adding the needed buttons
     log_out_image = ImageTk.PhotoImage(Image.open("Log_Out_Logo.png").resize((39, 32)))
-    log_out_button = gui.button_design(header_frame, 1690, 0, 210, 58, "#065494", "white", " Log Out", ("Century Gothic", 21, 'bold'))
-    log_out_button.config(image=log_out_image, compound=tk.LEFT, relief=tk.FLAT, activebackground="#065494", command=log_out)
+    log_out_button = gui.button_design(header_frame, 1690, 0, 210, 58, "#2A629A", "white", " Log Out", ("Century Gothic", 21, 'bold'))
+    log_out_button.config(image=log_out_image, compound=tk.LEFT, relief=tk.FLAT, activebackground="#2A629A", command=log_out)
     profile_image = ImageTk.PhotoImage(Image.open("Profile_Logo.png").resize((56, 61)))
     profile_button = gui.button_design(main_frame, 26, 88, 495, 104, "#065494", "white", " PROFILE",("Century Gothic", 30, 'bold'))
     profile_button.config(image=profile_image, compound=tk.LEFT, relief=tk.FLAT, activebackground="#065494", command=switch_to_profile_page)
