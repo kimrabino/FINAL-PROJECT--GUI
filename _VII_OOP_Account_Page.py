@@ -213,9 +213,9 @@ def main(username):
     log_out_button.config(image=log_out_image, compound=tk.LEFT, relief=tk.FLAT, activebackground="#5EB0DE",  command=log_out)
     update_button = gui.button_design(frame, 1486, 857, 118, 40, "#5CABD7", "white", "UPDATE", ("Century Gothic", 13))
     update_button.config(command=updateData)
-    delete_button = gui.button_design(frame, 1621, 857, 118, 40, "#0C385E", "white", "DELETE", ("Century Gothic", 13))
+    delete_button = gui.button_design(frame, 1621, 857, 118, 40, "#074173", "white", "DELETE", ("Century Gothic", 13))
     delete_button.config(command=deleteData)
-    cancel_button = gui.button_design(frame, 1756, 857, 118, 40, "#1E6CAB", "white", "CANCEL", ("Century Gothic", 13))
+    cancel_button = gui.button_design(frame, 1756, 857, 118, 40, "#1679AB", "white", "CANCEL", ("Century Gothic", 13))
     cancel_button.config(command=cancelData)
 
     window.state('zoomed')  # Functionality to keep the page on auto-full screen
